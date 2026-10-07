@@ -11,7 +11,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/xhc-code/tidy_desk/pulls)
 [![Architecture: x64](https://img.shields.io/badge/Architecture-x64-orange.svg)](https://github.com/xhc-code/tidy_desk)
 
-[项目简介](#overview) • [核心特性](#features) • [源码构建](#getting-started) • [打包分发](#packaging) • [架构设计](#architecture) • [路线图](#roadmap) • [贡献指南](#contributing) • [开源协议](#license)
+[项目简介](#overview) • [界面预览](#preview) • [核心特性](#features) • [源码构建](#getting-started) • [打包分发](#packaging) • [架构设计](#architecture) • [路线图](#roadmap) • [贡献指南](#contributing) • [开源协议](#license)
 
 </div>
 
@@ -27,6 +27,25 @@
 - **现代化设计语言**：深度融入 Windows 11 Fluent Design，原生支持 **Mica (云母)**、**Acrylic (亚克力毛玻璃)** 与自适应暗黑/明亮主题。
 - **原生级极速流畅**：结合 Win32 原生 API、Worker Isolate 异步线程池与 120Hz 动力学阻尼滚轮，主线程 100% 满帧无卡顿。
 - **双重交互形态**：支持 **大抽屉全景网格** 与 **置底 macOS 风格平滑鱼眼 Dock 坞**，适配不同使用习惯。
+
+---
+
+<span id="preview"></span>
+## 📸 界面预览 (Screenshots)
+
+### 🖥️ 全屏桌面沉浸展示 (纯净壁纸 + 极简收纳盒 + 独立 Dock 浮岛)
+> 一键开启 **纯净壁纸模式**，毫秒级隐去凌乱的桌面原有图标，露出原生高清壁纸；居中高颜值透明收纳盒与置底独立 Dock 挂件优雅联动，桌面重回清爽纯粹。
+
+<p align="center">
+  <img src="./整屏展示.png" alt="Tidy Desk 全屏沉浸展示" width="100%" />
+</p>
+
+### 🗂️ 桌面收纳盒主界面 (智能药丸分类 + 实时硬件监控 + 快速秒搜)
+> 顶部实时时间看板与 CPU / 内存占用率监控；基于文件扩展名的智能分类药丸胶囊标签（支持文件计数角标与自由拖拽调序）；全拼与拼音首字母即输即搜。
+
+<p align="center">
+  <img src="./软件主界面.png" alt="Tidy Desk 软件主界面" width="100%" />
+</p>
 
 ---
 
