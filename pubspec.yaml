@@ -1,0 +1,74 @@
+name: tidy_desk
+description: "Tidy Desk (桌面收纳盒) - A modern, lightweight, and open-source desktop organizer for Windows 11/10 built with Flutter."
+publish_to: 'none'
+version: 1.0.0+8
+homepage: https://github.com/xhc-code/tidy_desk
+repository: https://github.com/xhc-code/tidy_desk
+issue_tracker: https://github.com/xhc-code/tidy_desk/issues
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  fluent_ui: ^4.16.1
+  flutter:
+    sdk: flutter
+  flutter_acrylic: ^1.1.4
+  hotkey_manager: ^0.2.3
+  win32_registry: ^3.0.3
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.5
+  tray_manager: ^0.5.3
+  url_launcher: ^6.3.2
+  window_manager: ^0.5.2
+  screen_retriever: ^0.2.2
+  ffi: ^2.2.0
+  pinyin: ^3.0.1
+  logger: ^2.5.0
+  crypto: ^3.0.6
+  desktop_drop: ^0.5.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  msix: ^3.16.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/app_icon.ico
+    - assets/icons/app_icon.png
+  fonts:
+    - family: AlibabaPuHuiTi
+      fonts:
+        - asset: assets/fonts/AlibabaPuHuiTi-3-55-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/AlibabaPuHuiTi-3-65-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/AlibabaPuHuiTi-3-75-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/AlibabaPuHuiTi-3-85-Bold.ttf
+          weight: 700
+
+# MSIX 微软商店与安装包配置
+msix_config:
+  display_name: 桌面收纳盒
+  publisher_display_name: Tidy Desk Community
+  identity_name: TidyDesk.OpenSource
+  msix_version: 1.0.0.0
+  logo_path: assets/icons/app_icon.png
+  build_windows: false
+  install_certificate: false
+  # 上架微软商店时，请开启 store: true 并填入微软合作伙伴中心分配的 publisher
+  # store: true
+  # publisher: CN=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+
+
+
+
+
+
+
+

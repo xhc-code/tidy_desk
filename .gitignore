@@ -1,0 +1,114 @@
+# ==============================================================================
+# Flutter / Dart / Pub 基础产物与缓存
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# 文档与测试产物
+**/doc/api/
+.widget_preview/
+
+# ==============================================================================
+# Windows 桌面平台专属构建与临时产物
+# ==============================================================================
+# Windows 临时生成插件与引擎二进制 (CMake 临时目录)
+windows/flutter/ephemeral/
+windows/runner/Release/
+windows/runner/Debug/
+windows/runner/Profile/
+
+# Visual Studio / MSBuild / CMake 编译产物
+*.vcxproj.user
+*.vcxproj.filters
+*.idb
+*.pdb
+*.ilk
+*.obj
+*.exp
+*.lib
+*.res
+*.tlog
+*.log
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ==============================================================================
+# IDE 与编辑器配置
+# ==============================================================================
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# ==============================================================================
+# 操作系统与临时文件
+# ==============================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 临时压缩包与备份
+*.tmp
+*.bak
+*.swp
+*~
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==============================================================================
+# 符号化与混淆相关
+# ==============================================================================
+app.*.symbols
+app.*.map.json
+
+# ==============================================================================
+# 开源排除项：构建分发产物、私有运维配置与发版脚本
+# ==============================================================================
+# 1. 构建打包产物 (避免 76MB 等二进制大文件进入 Git)
+dist/
+*.exe
+
+# 2. 私有服务器运维配置 (避免泄露内部架构与证书路径)
+config/nginx*.conf
+
+# 3. 私有发版向导与自动化部署脚本
+publish_release.bat
+scripts/
+
+# 4. 官网发布与落地页 (作为独立静态站点发布，不混入主客户端源码)
+web_landing/
+

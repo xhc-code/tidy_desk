@@ -1,0 +1,7 @@
+{
+    "APP_NAME": "桌面收纳盒",
+    "APP_VERSION": "1.0.0",
+    "APP_BUILD_NUMBER": "8",
+    "UPDATE_CHECK_URL": "https://app.dmahz.cn/tidydesk/version.json",
+    "INNO_SETUP_COMPILER_PATH": "C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe"
+}
